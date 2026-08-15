@@ -1,0 +1,36 @@
+# Darias Website — Cursor Rules
+
+- Keep token use low. Be concise. No long reports after every step.
+- Do not reread entire files repeatedly. Touch only files needed for a change.
+- Do not rewrite working code without a reason.
+- Do not add unnecessary dependencies, frameworks, or build systems.
+- Make safe, reasonable decisions yourself. Do not ask for approval on every small technical choice.
+- Do not leave TODOs or placeholders.
+- Do not create non-working buttons or fake features.
+- Do not invent users, downloads, ratings, reviews, emails, or URLs.
+- Find the root cause first, then fix.
+- Always keep responsive design. Never design desktop-only.
+- Do not break the Turkish/English i18n structure.
+- Keep GitHub Pages compatibility. Use static directories. No Windows/local absolute paths.
+- No backend, database, secrets, or API keys.
+- No unnecessary refactors.
+- Never use `git push --force` unless the user explicitly demands it. Default: never force push.
+- Goal: production-ready static website.
+
+## Stack
+- HTML5, CSS3, vanilla JavaScript only unless a dependency is truly required.
+- No React, Next.js, Vue, Angular, Node backend, PHP, Docker, or cloud backend.
+
+## Brand
+- Brand: Darias
+- Creator/developer/author: Derya Toklu only. Do not use any other personal name.
+- Do not use unproven marketing claims.
+
+## Content safety
+- Empty URLs must disable or hide related actions.
+- Missing screenshots: professional empty state, no fake UI shots.
+- contactEmail empty: do not show a fake address.
+
+## Quality
+- Semantic HTML, accessibility, prefers-reduced-motion, visible focus.
+- Fast, light, SEO-friendly, bilingual, scalable via central data files.

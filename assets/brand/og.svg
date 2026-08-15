@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Darias">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1018"/>
+      <stop offset="1" stop-color="#151B2B"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="430" y1="220" x2="520" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="430" y="168" width="88" height="88" rx="22" fill="#121826" stroke="url(#mark)" stroke-width="3"/>
+  <path fill="url(#mark)" d="M452 188h20.2c12.2 0 20.6 8 20.6 22.4s-8.4 22.4-20.6 22.4H452V188zm8.8 8v28.8h11.4c7.2 0 11.8-4.8 11.8-14.4S479.4 196 472.2 196H460.8z"/>
+  <circle cx="498" cy="196" r="3.2" fill="#5EEAD4"/>
+  <text x="536" y="228" fill="#F3F6FB" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="4">DARIAS</text>
+  <text x="430" y="310" fill="#C5CDDB" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="32">Simple ideas. Better experiences.</text>
+</svg>

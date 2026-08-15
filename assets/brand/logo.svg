@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Darias">
+  <defs>
+    <linearGradient id="darias-mark" x1="4" y1="3" x2="28" y2="29" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.25" y="1.25" width="29.5" height="29.5" rx="8" fill="#121826" stroke="url(#darias-mark)" stroke-width="1.5"/>
+  <path fill="url(#darias-mark)" d="M10 8h7.15c4.35 0 7.35 2.85 7.35 8s-3 8-7.35 8H10V8zm3.15 2.85v10.3h4c2.55 0 4.2-1.7 4.2-5.15s-1.65-5.15-4.2-5.15h-4z"/>
+  <circle cx="23.2" cy="10.2" r="1.15" fill="#5EEAD4"/>
+</svg>

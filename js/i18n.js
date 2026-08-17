@@ -28,7 +28,7 @@
       aboutTitle: "About Darias",
       aboutBody:
         "Darias creates useful apps, creative games and lightweight software with a focus on simplicity, privacy and good user experience.",
-      createdBy: "Created by Derya Toklu",
+      createdBy: "",
       contactSoon: "Contact details coming soon.",
       appsTitle: "Apps",
       appsLead: "Android apps and games from Darias.",
@@ -80,7 +80,7 @@
       notFoundTitle: "Lost in the Echo?",
       notFoundBody: "This page is not here. The path ended before the next choice.",
       backHome: "Back to Home",
-      footerNote: "Created by Derya Toklu",
+      footerNote: "Simple ideas. Better experiences.",
       noscript:
         "JavaScript is off. You can still browse Darias pages and read privacy policies."
     },
@@ -108,7 +108,7 @@
       aboutTitle: "Darias Hakkında",
       aboutBody:
         "Darias; sadelik, gizlilik ve iyi kullanıcı deneyimine odaklanan faydalı uygulamalar, yaratıcı oyunlar ve hafif yazılımlar geliştirir.",
-      createdBy: "Derya Toklu tarafından geliştirildi",
+      createdBy: "",
       contactSoon: "İletişim bilgileri yakında.",
       appsTitle: "Uygulamalar",
       appsLead: "Darias’ın Android uygulama ve oyunları.",
@@ -160,7 +160,7 @@
       notFoundTitle: "Echo’da mı kayboldun?",
       notFoundBody: "Bu sayfa burada değil. Yol, bir sonraki seçimden önce bitti.",
       backHome: "Ana Sayfaya Dön",
-      footerNote: "Derya Toklu tarafından geliştirildi",
+      footerNote: "Basit fikirler. Daha iyi deneyimler.",
       noscript:
         "JavaScript kapalı. Darias sayfalarını ve gizlilik politikalarını yine de görüntüleyebilirsin."
     }

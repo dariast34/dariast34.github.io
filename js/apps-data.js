@@ -19,7 +19,7 @@
       status: "testing",
       featured: true,
       platforms: ["android"],
-      playStoreUrl: "",
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.dariasdash",
       githubUrl: "",
       apkUrl: "",
       privacyUrl: "/privacy/darias-dash/",

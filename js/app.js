@@ -98,7 +98,7 @@
       (copy.tagline ? '<p class="app-tagline">' + escapeHtml(copy.tagline) + "</p>" : "") +
       (copy.description ? "<p>" + escapeHtml(copy.description) + "</p>" : "") +
       '<div class="btn-row">' +
-      renderActions(app, { showPlaySoon: true }) +
+      renderActions(app, { showPlaySoon: true, privacy: true }) +
       "</div>" +
       "</article>"
     );

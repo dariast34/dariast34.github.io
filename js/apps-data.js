@@ -3,6 +3,29 @@
 
   global.DARIAS_APPS = [
     {
+      id: "darias-dash",
+      name: "Darias Dash",
+      type: "utility",
+      category: "Tools",
+      categoryTR: "Araçlar",
+      descriptionEN:
+        "Darias Dash tests hundreds of DNS paths for your phone and picks the fastest one. One tap — no lists.",
+      descriptionTR:
+        "Darias Dash, telefonun için yüzlerce DNS yolunu dener ve en hızlısını senin yerine seçer. Liste yok; bir dokunuş yeter.",
+      taglineEN: "The sweetest speedy DNS. Automatically picks the fastest path for your phone.",
+      taglineTR: "En tatlı hızlı DNS. Telefonun için en hızlı yolu otomatik seçer.",
+      icon: "/assets/apps/darias-dash/icon.png",
+      screenshots: [],
+      status: "testing",
+      featured: true,
+      platforms: ["android"],
+      playStoreUrl: "",
+      githubUrl: "",
+      apkUrl: "",
+      privacyUrl: "/privacy/darias-dash/",
+      productUrl: ""
+    },
+    {
       id: "darias-boost",
       name: "Darias Boost: Pil & Performans",
       type: "utility",

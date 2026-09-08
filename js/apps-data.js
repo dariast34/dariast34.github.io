@@ -3,6 +3,29 @@
 
   global.DARIAS_APPS = [
     {
+      id: "darias-wordloom",
+      name: "Darias Wordloom",
+      type: "app",
+      category: "Education",
+      categoryTR: "Eğitim",
+      descriptionEN:
+        "Grow your English with flashcards, short games and daily review. Four paths from primary school to university — 20 units, 160 word cards, no account, and lessons that work offline.",
+      descriptionTR:
+        "Kartlar, kısa oyunlar ve günlük tekrarlarla İngilizceni büyüt. İlkokuldan üniversiteye dört öğrenme yolu — 20 ünite, 160 kelime kartı, hesap yok, dersler çevrimdışı çalışır.",
+      taglineEN: "Grow a little every day. It starts with one word.",
+      taglineTR: "Her gün biraz büyü. Bir kelimeyle başla.",
+      icon: "/assets/apps/darias-wordloom/icon.png",
+      screenshots: [],
+      status: "testing",
+      featured: true,
+      platforms: ["android"],
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.wordloom",
+      githubUrl: "",
+      apkUrl: "",
+      privacyUrl: "/privacy/darias-wordloom/",
+      productUrl: ""
+    },
+    {
       id: "darias-dash",
       name: "Darias Dash",
       type: "utility",

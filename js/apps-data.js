@@ -3,6 +3,29 @@
 
   global.DARIAS_APPS = [
     {
+      id: "face-off",
+      name: "FACE OFF",
+      type: "game",
+      category: "Game / Party",
+      categoryTR: "Oyun / Eğlence",
+      descriptionEN:
+        "Challenge your friends with quick face-off games: keep a straight face, blink less, and tap faster.",
+      descriptionTR:
+        "Arkadaşlarınla yüzleş: göz kırpmamaya ve gülmemeye çalış, rekor kovala ve ekrana en hızlı sen tıkla.",
+      taglineEN: "Stay Serious. Tap Fast. Win.",
+      taglineTR: "Ciddi Kal. Hızlı Tıkla. Kazan.",
+      icon: "https://play-lh.googleusercontent.com/0s04WEb501BbR5E4Aey6fX-MaMMZdLk6vBCkmG-_i19-pcU0o6S3FjIaTjZi66VkEDAtKS5HFh3PZjUf-R9AkA=w240-h480-rw",
+      screenshots: [],
+      status: "available",
+      featured: true,
+      platforms: ["android"],
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.faceoff",
+      githubUrl: "",
+      apkUrl: "",
+      privacyUrl: "/privacy/face-off/",
+      productUrl: ""
+    },
+    {
       id: "darias-wordloom",
       name: "Darias Wordloom",
       type: "app",
@@ -17,7 +40,7 @@
       icon: "/assets/apps/darias-wordloom/icon.png",
       screenshots: [],
       status: "testing",
-      featured: true,
+      featured: false,
       platforms: ["android"],
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.wordloom",
       githubUrl: "",
@@ -40,7 +63,7 @@
       icon: "/assets/apps/darias-dash/icon.png",
       screenshots: [],
       status: "testing",
-      featured: true,
+      featured: false,
       platforms: ["android"],
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.dariasdash",
       githubUrl: "",
@@ -92,29 +115,6 @@
       githubUrl: "",
       apkUrl: "",
       privacyUrl: "/darias-walls-privacy/",
-      productUrl: ""
-    },
-    {
-      id: "face-off",
-      name: "FACE OFF",
-      type: "game",
-      category: "Game / Party",
-      categoryTR: "Oyun / Eğlence",
-      descriptionEN:
-        "Challenge your friends with quick face-off games: keep a straight face, blink less, and tap faster.",
-      descriptionTR:
-        "Arkadaşlarınla yüzleş: göz kırpmamaya ve gülmemeye çalış, rekor kovala ve ekrana en hızlı sen tıkla.",
-      taglineEN: "Stay Serious. Tap Fast. Win.",
-      taglineTR: "Ciddi Kal. Hızlı Tıkla. Kazan.",
-      icon: "https://play-lh.googleusercontent.com/0s04WEb501BbR5E4Aey6fX-MaMMZdLk6vBCkmG-_i19-pcU0o6S3FjIaTjZi66VkEDAtKS5HFh3PZjUf-R9AkA=w240-h480-rw",
-      screenshots: [],
-      status: "testing",
-      featured: false,
-      platforms: ["android"],
-      playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.faceoff",
-      githubUrl: "",
-      apkUrl: "",
-      privacyUrl: "/privacy/face-off/",
       productUrl: ""
     },
     {

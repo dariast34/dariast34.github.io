@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="Yemek Tarifleri">
+  <rect width="108" height="108" rx="24" fill="#254E3D"/>
+  <circle cx="54" cy="54" r="32" fill="#F7E9CB"/>
+  <circle cx="54" cy="54" r="22" fill="#D77650"/>
+  <path fill="#254E3D" d="M48 50Q50 34 69 39Q67 54 48 50M48 50Q31 52 39 66Q54 65 48 50"/>
+</svg>

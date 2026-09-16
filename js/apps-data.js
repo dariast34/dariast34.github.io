@@ -26,6 +26,29 @@
       productUrl: ""
     },
     {
+      id: "earthfall-squadron",
+      name: "Earthfall Squadron",
+      type: "game",
+      category: "Game / Action",
+      categoryTR: "Oyun / Aksiyon",
+      descriptionEN:
+        "One-finger portrait space shooter. Fly 25 missions, fight bosses, pick up power-ups, and upgrade hull, shield and weapons. Ads may appear when the app opens, never during a mission.",
+      descriptionTR:
+        "Tek parmakla oynanan dikey uzay savaşı. 25 görev, boss’lar, güçlendirmeler ve Hangar yükseltmeleri. Reklam yalnızca uygulama açılışında çıkabilir, görev sırasında çıkmaz.",
+      taglineEN: "Earth's last defense fleet",
+      taglineTR: "Dünyanın son savunma filosu",
+      icon: "/assets/apps/earthfall-squadron/icon.png",
+      screenshots: [],
+      status: "testing",
+      featured: false,
+      platforms: ["android"],
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.earthfallsquadron",
+      githubUrl: "",
+      apkUrl: "",
+      privacyUrl: "/privacy/earthfall-squadron/",
+      productUrl: ""
+    },
+    {
       id: "darias-wordloom",
       name: "Darias Wordloom",
       type: "app",

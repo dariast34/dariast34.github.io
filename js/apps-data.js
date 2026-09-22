@@ -26,6 +26,52 @@
       productUrl: ""
     },
     {
+      id: "earthfall-squadron",
+      name: "Earthfall Squadron",
+      type: "game",
+      category: "Game / Action",
+      categoryTR: "Oyun / Aksiyon",
+      descriptionEN:
+        "One-finger portrait space shooter. Fly 25 missions, fight bosses, pick up power-ups, and upgrade hull, shield and weapons. Ads may appear when the app opens, never during a mission.",
+      descriptionTR:
+        "Tek parmakla oynanan dikey uzay savaşı. 25 görev, boss’lar, güçlendirmeler ve Hangar yükseltmeleri. Reklam yalnızca uygulama açılışında çıkabilir, görev sırasında çıkmaz.",
+      taglineEN: "Earth's last defense fleet",
+      taglineTR: "Dünyanın son savunma filosu",
+      icon: "/assets/apps/earthfall-squadron/icon.png",
+      screenshots: [],
+      status: "testing",
+      featured: false,
+      platforms: ["android"],
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.earthfallsquadron",
+      githubUrl: "",
+      apkUrl: "",
+      privacyUrl: "/privacy/earthfall-squadron/",
+      productUrl: ""
+    },
+    {
+      id: "yemek-tarifleri",
+      name: "Yemek Tarifleri",
+      type: "app",
+      category: "Food & Drink",
+      categoryTR: "Yiyecek ve İçecek",
+      descriptionEN:
+        "Find what to cook with what you have. Search 108 original offline recipes, match ingredients, save favorites, build a shopping list and plan your week — with cooking mode and a kitchen timer.",
+      descriptionTR:
+        "Evindeki malzemelerle ne pişireceğini bul. 108 özgün çevrimdışı tarif, malzeme eşleştirme, favoriler, alışveriş listesi ve haftalık plan — pişirme modu ve mutfak zamanlayıcısıyla.",
+      taglineEN: "Find what to cook with what you have.",
+      taglineTR: "Evindeki malzemelerle ne pişireceğini bul.",
+      icon: "/assets/apps/yemek-tarifleri/icon.svg",
+      screenshots: [],
+      status: "testing",
+      featured: false,
+      platforms: ["android"],
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.yemektarifleri",
+      githubUrl: "",
+      apkUrl: "",
+      privacyUrl: "/privacy/yemek-tarifleri/",
+      productUrl: ""
+    },
+    {
       id: "darias-wordloom",
       name: "Darias Wordloom",
       type: "app",

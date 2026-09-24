@@ -208,6 +208,29 @@
       apkUrl: "",
       privacyUrl: "/phone-duel-privacy/",
       productUrl: ""
+    },
+    {
+      id: "neon-drift",
+      name: "Neon Drift",
+      type: "game",
+      category: "Game / Arcade",
+      categoryTR: "Oyun / Arcade",
+      descriptionEN:
+        "Neon Drift is a simple one-finger space arcade. Drag your ship, collect yellow stars, dodge gray meteors and beat your high score. No account required; plays offline. An ad may appear when you open the app.",
+      descriptionTR:
+        "Neon Drift, tek parmakla oynanan basit bir uzay arcade oyunudur. Geminizi sürükleyin, sarı yıldızları toplayın, gri meteorlardan kaçının ve en yüksek puanınızı geçin. Hesap gerekmez, çevrimdışı oynanır. Uygulama ilk açıldığında reklam görünebilir.",
+      taglineEN: "Collect stars, dodge meteors. A one-finger neon space arcade.",
+      taglineTR: "Yıldızları topla, meteorlardan kaç. Tek parmakla oynanan neon ışıklı uzay oyun salonu.",
+      icon: "https://play-lh.googleusercontent.com/FpmWdZiKU7HoMi-WALLzNriJ3JLtOELRl2IXVdykRm43qi8WywGLKKqEkxc_aQV2THm-YVh_DX8msW20RbpApg=w240-h480-rw",
+      screenshots: [],
+      status: "testing",
+      featured: false,
+      platforms: ["android"],
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.dariasapp.neondrift",
+      githubUrl: "",
+      apkUrl: "",
+      privacyUrl: "/privacy/neon-drift/",
+      productUrl: ""
     }
   ];
 

@@ -26,6 +26,29 @@
       productUrl: ""
     },
     {
+      id: "bilisim-kasifi",
+      name: "Bilişim Kâşifi",
+      type: "app",
+      category: "Education",
+      categoryTR: "Eğitim",
+      descriptionEN:
+        "Grade 5–6 IT curriculum in one app: 72 weekly lessons, games, writing workshop and on-device progress. Offline-friendly. Ads are PG and non-personalized.",
+      descriptionTR:
+        "5. ve 6. sınıf bilişim müfredatı tek uygulamada: 72 haftalık konu, oyunlar, yazılı atölyesi ve cihazda ilerleme. Çevrimdışı kullanılabilir. Reklamlar PG ve kişiselleştirilmemiş.",
+      taglineEN: "Learn, play, and write — Grade 5–6 IT.",
+      taglineTR: "Öğren, oyna, kendini anlat — 5. ve 6. sınıf bilişim.",
+      icon: "/assets/apps/bilisim-kasifi/icon.png",
+      screenshots: [],
+      status: "testing",
+      featured: false,
+      platforms: ["android"],
+      playStoreUrl: "https://play.google.com/store/apps/details?id=tr.bilisimkasifi.app",
+      githubUrl: "",
+      apkUrl: "",
+      privacyUrl: "/privacy/bilisim-kasifi/",
+      productUrl: ""
+    },
+    {
       id: "earthfall-squadron",
       name: "Earthfall Squadron",
       type: "game",

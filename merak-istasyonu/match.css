@@ -1,0 +1,8 @@
+.match-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:16px 0}
+.match-card{min-height:88px;padding:10px;border:1px solid #7eaaff55;border-radius:13px;background:linear-gradient(145deg,#17253a,#202f48);color:var(--ink);font:inherit;font-size:13px;font-weight:700;line-height:1.4;overflow-wrap:anywhere;cursor:pointer;transition:transform .15s,border-color .15s,background .15s}
+.match-card:hover:not(.matched){transform:translateY(-2px);border-color:var(--aqua)}
+.match-card[aria-pressed=true]{background:#203b4b;border-color:#6fe3d1}
+.match-card.matched{background:#c5f36b15;border-color:var(--lime);color:var(--lime);cursor:default}
+.match-card:focus-visible{outline:3px solid var(--lime);outline-offset:2px}
+@media(max-width:540px){.match-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.match-card{min-height:76px;padding:8px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){.match-card{transition:none}.match-card:hover:not(.matched){transform:none}}

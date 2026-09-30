@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101a2c"><meta name="description" content="5. ve 6. sınıflar için bilişim teknolojilerini oyunlarla keşfet.">
+  <title>Merak İstasyonu — Bilişim Oyunları</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="interactions.css"><link rel="stylesheet" href="match.css"><link rel="stylesheet" href="wordsearch.css">
+</head>
+<body>
+  <a class="skip" href="#main">İçeriğe geç</a>
+  <header class="topbar"><a class="brand" href="#home" aria-label="Merak İstasyonu ana sayfa"><span class="brand-mark">✦</span><span>MERAK <b>İSTASYONU</b></span></a><div class="top-actions"><span class="grade-pill">5–6. SINIF</span><span class="score-pill" aria-label="Bu cihazdaki kâşif puanı">✧ <b id="scoreTotal">0</b></span><button class="sound-button" id="soundToggle" type="button" aria-label="Sesleri aç veya kapat" aria-pressed="false" title="Sesleri aç veya kapat">♫ <span>Ses kapalı</span></button></div></header>
+  <main id="main">
+    <section id="home" class="hero"><div class="hero-copy"><p class="eyebrow"><span class="pulse"></span> ÖĞRENMEK BİR MACERA</p><h1>Dijital dünyanın<br><em>kaşifi</em> ol!</h1><p class="hero-lede">Merak et, dene, keşfet. Bilişim becerilerini eğlenceli mini oyunlarla güçlendir.</p><a class="primary-button" href="#games">Oyunları keşfet <span>↓</span></a><div class="hero-meta"><span>◷ 3–5 dakikalık turlar</span><span>✧ Ücretsiz · Hesapsız</span></div></div>
+      <div class="hero-art" aria-label="Uzayı keşfeden sevimli robot illüstrasyonu"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="planet planet-a"></div><div class="planet planet-b"></div><div class="spark spark-a">✦</div><div class="spark spark-b">✧</div><div class="robot"><div class="antenna"></div><div class="robot-head"><i></i><i></i><b></b></div><div class="robot-body"><span>MI</span></div><div class="robot-arm"></div></div><div class="art-caption">MERAK MODU <b>AÇIK</b></div></div>
+    </section>
+    <section class="stats" aria-label="Oyun özellikleri"><div><b>100</b><span>özgün oyun</span></div><i></i><div><b>∞</b><span>keşfedilecek bilgi</span></div><i></i><div><b>0</b><span>kişisel bilgi talebi</span></div></section>
+    <section id="games" class="games-section">
+      <div class="section-heading"><div><p class="eyebrow">İSTASYONLAR SENİ BEKLİYOR</p><h2>Bugün ne <em>oynayalım?</em></h2></div><p>Bir oyun seç, yeni bir şey öğren.<br>Yanlış cevaplar da keşfin parçası!</p></div>
+      <div class="game-browse-tools"><label class="game-search"><span>Bir oyun ara</span><input id="gameSearch" type="search" autocomplete="off" placeholder="Örn. robot, piksel, güvenlik" aria-label="Oyun adı veya konusu ara"></label><button class="surprise-game" id="surpriseGame" type="button">✦ Sürpriz oyun seç</button></div>
+      <nav class="game-filters" id="gameFilters" aria-label="Oyun konusuna veya türüne göre filtrele"><button type="button" data-filter="all" aria-pressed="true">Tümü <span id="gameCount" aria-live="polite" aria-atomic="true">0</span></button><button type="button" data-filter="puzzles" aria-pressed="false">Bulmaca & eşleştirme <span data-filter-count="puzzles">0</span></button><button type="button" data-filter="code" aria-pressed="false">Kodlama & algoritma</button><button type="button" data-filter="logic" aria-pressed="false">Bilgi & zihin oyunları</button><button type="button" data-filter="devices" aria-pressed="false">Donanım & dosyalar</button><button type="button" data-filter="safety" aria-pressed="false">Güvenli internet</button></nav>
+      <div class="game-grid" id="gameGrid"></div><p class="empty-games" id="emptyGames" role="status" aria-live="polite" hidden>Bu aramayla eşleşen bir oyun yok. Başka bir kelime deneyebilirsin.</p>
+    </section>
+    <section class="bottom-note"><div class="note-icon">✧</div><div><b>Her deneme yeni bir keşif.</b><p>Adın, e-posta adresin veya konumun istenmez. İlerlemen yalnızca bu cihazda tutulur.</p></div><button id="resetProgress" class="text-button" type="button">İlerlemeyi sıfırla</button></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">✦</span><span>MERAK <b>İSTASYONU</b></span></a><span>Özgün oyunlar · Merakla öğren</span><a href="README.md">Proje bilgisi</a></footer>
+  <dialog id="gameDialog" class="game-dialog" aria-labelledby="gameTitle"><div class="dialog-top"><div><p class="eyebrow" id="gameEyebrow">OYUN İSTASYONU</p><h2 id="gameTitle">Oyun</h2></div><button class="close-button" id="closeGame" aria-label="Oyunu kapat">×</button></div><div id="gameBody" class="game-body"></div></dialog>
+  <script src="js/data.js"></script><script src="js/app.js"></script><script src="js/sound.js"></script><script src="js/game-links.js"></script>
+</body>
+</html>

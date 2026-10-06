@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Darias Dash Gizlilik Politikası</title>
-  <meta name="description" content="Darias Dash gizlilik politikası. DNS, yerel VPN, AdMob ve UMP.">
+  <meta name="description" content="Darias Dash gizlilik politikası. Şifreli DNS, yerel VPN, AdMob ve UMP.">
   <link rel="canonical" href="https://dariast34.github.io/privacy/darias-dash/">
   <link rel="alternate" hreflang="tr" href="https://dariast34.github.io/privacy/darias-dash/">
   <link rel="alternate" hreflang="en" href="https://dariast34.github.io/privacy/darias-dash/en/">
@@ -32,18 +32,18 @@
   <div class="card">
     <h2>Uygulama</h2>
     <p>Bu politika, DariasApp tarafından yayımlanan Darias Dash Android uygulaması (paket adı: <code>com.dariasapp.dariasdash</code>) için geçerlidir. İletişim: <a href="mailto:dariast34@gmail.com">dariast34@gmail.com</a>.</p>
-    <p>Darias Dash, telefonunuz için genel DNS sunucularını hız testi ile dener ve en hızlısını uygular. Reklamsız sekmesinde reklam engelleyici DNS’ler denenir. DNS listesi kullanıcıya gösterilmez.</p>
+    <p>Darias Dash, Cloudflare, Google Public DNS, Quad9 ve AdGuard gibi genel DNS sağlayıcılarının şifreli DNS-over-HTTPS (DoH) bağlantılarını hız açısından karşılaştırır ve en düşük gecikmeli sağlayıcıyı kullanır.</p>
 
     <h2>Hesap ve topladığımız bilgiler</h2>
     <p>Uygulama hesap açmaz. Ad, e-posta veya telefon gibi profil bilgilerini DariasApp sunucusuna göndermez. Dil tercihi cihazda saklanır.</p>
 
     <h2>Yerel VPN / DNS</h2>
-    <p>Android, DNS değiştirmek için bir kez VPN izni ister. Darias Dash bu izni yalnızca seçilen DNS sunucularını uygulamak için kullanır. Tüm internet trafiğini kendi sunucumuz üzerinden geçirmeyiz, tarama geçmişini kaydetmeyiz ve DNS sorgularını DariasApp hesabına yüklemeyiz.</p>
-    <p>Hız testi, genel DNS sunucularına kısa DNS soruları gönderir. Sonuç yalnızca cihazda, kazananı seçmek için kullanılır.</p>
+    <p>Android, DNS isteklerini yerel VPN arabiriminden seçilen DNS sağlayıcısına yönlendirmek için VPN izni ister. Hız testi sırasında örnek DNS sorguları karşılaştırılan sağlayıcılara HTTPS ile gönderilir. Bağlandıktan sonra Android'in DNS sorguları seçilen sağlayıcıya HTTPS ile şifreli iletilir. DNS sağlayıcısı sorguları ve bağlantı IP adresinizi alabilir; saklama ve kullanım koşulları sağlayıcının gizlilik politikasına bağlıdır.</p>
+    <p>Darias Dash DNS sorgularını kaydetmez veya DariasApp sunucularına göndermez. Diğer uygulamaların internet trafiği DariasApp sunucularına yönlendirilmez. Hız ölçüm sonuçları yalnızca cihazda, sağlayıcı seçimi için kullanılır.</p>
 
     <h2>Reklamlar ve Google AdMob</h2>
-    <p>Uygulama açılışında Google AdMob interstitial reklam gösterebilir. Google Mobile Ads SDK; reklam sunumu, ölçüm ve (onaya bağlı) kişiselleştirme için IP adresi, reklam kimliği, cihaz bilgisi ve uygulama etkileşimlerini Google’ın politikalarına göre işleyebilir.</p>
-    <p>Gerekli bölgelerde Google User Messaging Platform (UMP) reklam tercihlerini sorar. Uygulamadaki “Reklam gizliliği” ile bu seçenek yeniden açılabilir.</p>
+    <p>Uygulama açılışında Google AdMob uygulama açılışı reklamı gösterebilir. Google Mobile Ads SDK; reklam sunumu, ölçüm ve (onaya bağlı) kişiselleştirme için IP adresi, reklam kimliği, cihaz bilgisi ve uygulama etkileşimlerini Google’ın politikalarına göre işleyebilir.</p>
+    <p>Gerekli bölgelerde Google User Messaging Platform (UMP) reklam tercihlerini sorar. Uygulamadaki “Gizlilik seçenekleri” ile bu seçenek yeniden açılabilir.</p>
     <p><a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a></p>
 
     <h2>Çocuklar</h2>

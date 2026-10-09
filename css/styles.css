@@ -479,6 +479,67 @@ main {
   padding-inline: 0.85rem;
 }
 
+/* Compact app cards */
+.grid:has(> .app-card) {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  gap: 0.8rem;
+}
+
+.app-card {
+  padding: 0.9rem;
+}
+
+.app-card .app-card-top {
+  gap: 0.65rem;
+  margin-bottom: 0.6rem;
+}
+
+.app-card .app-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 0.75rem;
+}
+
+.app-card .app-card-meta h3 {
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.app-card .app-card-meta .muted {
+  font-size: 0.82rem;
+}
+
+.app-card .status {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.72rem;
+}
+
+.app-card p {
+  margin: 0 0 0.5rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.app-card .app-card-meta p {
+  margin: 0;
+}
+
+.app-card .app-tagline {
+  font-size: 0.9rem;
+}
+
+.app-card .btn-row {
+  margin-top: 0.7rem;
+  gap: 0.5rem;
+}
+
+.app-card .btn,
+.app-card .btn-row .btn {
+  min-height: 2.4rem;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.88rem;
+}
+
 .about-band {
   background: var(--bg-soft);
   border-block: 1px solid var(--line);

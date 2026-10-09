@@ -221,7 +221,7 @@ main {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: clamp(3.5rem, 8vw, 7rem) 0 clamp(3rem, 6vw, 5.5rem);
+  padding: clamp(1.75rem, 4vw, 3rem) 0 clamp(1.5rem, 3vw, 2.25rem);
 }
 
 .hero::before,
@@ -253,7 +253,7 @@ main {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(12rem, 0.8fr);
-  gap: clamp(1.5rem, 4vw, 3rem);
+  gap: clamp(1.25rem, 3vw, 2.5rem);
   align-items: center;
 }
 
@@ -270,8 +270,8 @@ main {
 .hero h1,
 .page-head h1,
 .product-head h1 {
-  margin: 0 0 0.7rem;
-  font-size: clamp(2.3rem, 7vw, 5rem);
+  margin: 0 0 0.5rem;
+  font-size: clamp(2.1rem, 5vw, 3.75rem);
   line-height: 1.05;
   letter-spacing: 0.08em;
 }
@@ -283,7 +283,7 @@ main {
 
 .hero-title span {
   display: block;
-  font-size: clamp(1.7rem, 5vw, 3.3rem);
+  font-size: clamp(1.5rem, 3.6vw, 2.4rem);
   letter-spacing: -0.03em;
   line-height: 1.15;
 }
@@ -298,8 +298,9 @@ main {
 
 .hero-visual {
   min-width: 0;
+  width: 100%;
   aspect-ratio: 1;
-  max-width: 22rem;
+  max-width: 12.5rem;
   margin-left: auto;
   border-radius: 2rem;
   border: 1px solid var(--line);
@@ -313,7 +314,7 @@ main {
 }
 
 .hero-visual span {
-  font-size: clamp(5rem, 14vw, 8rem);
+  font-size: clamp(3.5rem, 8vw, 5rem);
   font-weight: 750;
   letter-spacing: -0.06em;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
@@ -325,7 +326,15 @@ main {
 .section,
 .page-head,
 .product-head {
-  padding: clamp(2.8rem, 6vw, 5rem) 0;
+  padding: clamp(1.75rem, 4vw, 3rem) 0;
+}
+
+.hero + .section {
+  padding-top: 0.75rem;
+}
+
+.section-kicker + .lead {
+  margin: 0 0 1rem;
 }
 
 .page-head,
@@ -627,8 +636,7 @@ main {
   }
 
   .hero-visual {
-    margin: 0;
-    max-width: 16rem;
+    display: none;
   }
 }
 

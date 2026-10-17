@@ -101,9 +101,9 @@
       category: "Education",
       categoryTR: "Eğitim",
       descriptionEN:
-        "Grow your English with flashcards, short games and daily review. Four paths from primary school to university — 20 units, 160 word cards, no account, and lessons that work offline.",
+        "Grow your English with flashcards, short games and daily review. Five paths from primary school to university plus everyday English — 625 units, 5,000 word cards. Unlock units with coins: 10 free to start. No account, and lessons work offline.",
       descriptionTR:
-        "Kartlar, kısa oyunlar ve günlük tekrarlarla İngilizceni büyüt. İlkokuldan üniversiteye dört öğrenme yolu — 20 ünite, 160 kelime kartı, hesap yok, dersler çevrimdışı çalışır.",
+        "Kartlar, kısa oyunlar ve günlük tekrarlarla İngilizceni büyüt. İlkokuldan üniversiteye ve günlük İngilizceye beş öğrenme yolu — 625 ünite, 5000 kelime kartı. Kilitli üniteleri jetonla aç: başlangıçta 10 jeton hediye. Hesap yok, dersler çevrimdışı çalışır.",
       taglineEN: "Grow a little every day. It starts with one word.",
       taglineTR: "Her gün biraz büyü. Bir kelimeyle başla.",
       icon: "https://play-lh.googleusercontent.com/dUxOAywXNWz0jIg_Dd_evRoPscAYTzItEjZdomANulFGMAoxJt9KTJqFlppdHIcObhOtU8afOrMTli3wp0Dm8w=w240-h480-rw",

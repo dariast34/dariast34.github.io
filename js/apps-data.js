@@ -101,9 +101,9 @@
       category: "Education",
       categoryTR: "Eğitim",
       descriptionEN:
-        "Grow your English with flashcards, short games and daily review. Five paths from primary school to university plus everyday English — 625 units, 5,000 word cards. Unlock units with coins: 10 free to start. No account, and lessons work offline.",
+        "Learn everyday English from A1 to C2: 72 units, 864 words and 360 phrases on topics like football, cinema, school and transport — each with a picture, a Turkish reading guide and speech. The first unit of every level is free; others open for 3 coins (10 free to start, +10 per rewarded ad) or get the one-time full version. No account, works offline.",
       descriptionTR:
-        "Kartlar, kısa oyunlar ve günlük tekrarlarla İngilizceni büyüt. İlkokuldan üniversiteye ve günlük İngilizceye beş öğrenme yolu — 625 ünite, 5000 kelime kartı. Kilitli üniteleri jetonla aç: başlangıçta 10 jeton hediye. Hesap yok, dersler çevrimdışı çalışır.",
+        "Günlük hayattan İngilizceyi A1’den C2’ye öğren: futbol, sinema, okul, ulaşım gibi konularda 72 bölüm, 864 kelime ve 360 cümle — her birinde görsel, Türkçe okunuş ve sesli okuma. Her seviyenin ilk bölümü ücretsiz; diğerleri 3 jetonla açılır (başta 10 jeton hediye, ödüllü reklamla +10) ya da tek seferlik tam sürümle hepsi açılır. Hesap yok, çevrimdışı çalışır.",
       taglineEN: "Grow a little every day. It starts with one word.",
       taglineTR: "Her gün biraz büyü. Bir kelimeyle başla.",
       icon: "https://play-lh.googleusercontent.com/dUxOAywXNWz0jIg_Dd_evRoPscAYTzItEjZdomANulFGMAoxJt9KTJqFlppdHIcObhOtU8afOrMTli3wp0Dm8w=w240-h480-rw",
